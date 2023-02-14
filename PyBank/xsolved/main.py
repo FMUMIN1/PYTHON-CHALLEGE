@@ -21,14 +21,14 @@ with open(csvpath) as csvfile:
     for row in csvReader:
         TOT_months = TOT_months + 1
         TOT_P_loss = TOT_P_loss + int(row["Profit/Losses"])
-        print(row)
+        #print(row)
 
 #Finging total changes
         PROF_L_change = int(row['Profit/Losses']) - LAST_P_loss
-        print(PROF_L_change)
+        #print(PROF_L_change)
 
         LAST_P_loss =int(row['Profit/Losses'])
-        print(LAST_P_loss)
+        #print(LAST_P_loss)
 
 #Max & Min
         if (PROF_L_change > MAX_inc[1]):
@@ -43,7 +43,7 @@ with open(csvpath) as csvfile:
 PROF_L_changes.append(int(row['Profit/Losses']))
 
 #Finding the average
-avg_PRO_loss = sum(PROF_L_changes)/len(PROF_L_changes)
+avg_PRO_loss = sum(PROF_L_changes)/ len(PROF_L_changes)
 
 #printed 
 print("Total Months: " + str(TOT_months))
