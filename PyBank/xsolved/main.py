@@ -3,8 +3,8 @@ import csv #csv path
 
 print("Financial Analysis")
 print("-------------------------------")
-csvpath = os.path.join("PyBank/Resources/budget_data.csv")
-csvtextpath = os.path.join("Analysis/PyBank.txt")
+csvpath = os.path.join("/Users/fatimamumin/Desktop/PYTHON-CHALLEGE/PyBank/Resources/budget_data.csv")
+csvtextpath = os.path.join("/Users/fatimamumin/Desktop/PYTHON-CHALLEGE/Analysis/PyBank.txt")
 
 #declare variables
 TOT_months = 0

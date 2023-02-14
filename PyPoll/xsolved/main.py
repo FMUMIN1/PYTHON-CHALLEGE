@@ -1,8 +1,8 @@
 import os #os path  
 import csv #csv file
 
-csvpath = os.path.join("PyPoll/Resources/election_data.csv")
-csvtextpath = os.path.join("Analysis/PyRoll.txt")
+csvpath = os.path.join("/Users/fatimamumin/Desktop/PYTHON-CHALLEGE/PyPoll/Resources/election_data.csv")
+csvtextpath = os.path.join("/Users/fatimamumin/Desktop/PYTHON-CHALLEGE/Analysis/PyRoll.txt")
 #declare variables
 WIN_V = 0
 V = 0
